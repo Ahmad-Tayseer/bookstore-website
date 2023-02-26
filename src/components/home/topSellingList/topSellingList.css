@@ -1,0 +1,19 @@
+.sliderDiv {
+  position: relative;
+  height: 100%;
+  width: 85%;
+  left: 7.5%;
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+
+.sliderDiv h1 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.swiperSlide {
+  margin-top: 5rem;
+  margin-left: 8px;
+}

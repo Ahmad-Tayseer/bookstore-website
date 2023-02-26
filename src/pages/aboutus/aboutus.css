@@ -1,0 +1,53 @@
+.aboutDiv {
+  background: #ffffff;
+  font-family: Open Sans, sans-serif;
+  line-height: 1.5em;
+  padding-bottom: 5rem;
+}
+
+.aboutContent {
+  position: relative;
+  width: 60%;
+  left: 20%;
+  padding-top: 4rem;
+}
+
+.aboutContent h1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.aboutContent p {
+  text-align: justify;
+  margin: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 1200px) {
+  .aboutContent {
+    position: relative;
+    width: 70%;
+    left: 15%;
+    padding-top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .aboutContent {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    padding-top: 4rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutContent {
+    position: relative;
+    width: 90%;
+    left: 5%;
+    padding-top: 4rem;
+  }
+}

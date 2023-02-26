@@ -1,0 +1,124 @@
+.header {
+  overflow: hidden;
+}
+
+.navBar {
+  background-color: rgb(243, 232, 232);
+  font-size: medium;
+  font-weight: 600;
+}
+
+.upperHeader {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.headerLogo {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+.headerLogo .logo {
+  color: rgb(255, 17, 0);
+  margin-right: 1rem;
+  font-size: 2rem;
+  margin-top: -0.5rem;
+}
+
+.headerLogo span {
+  color: rgb(255, 17, 0);
+}
+
+.headerInput {
+  font-size: large;
+  height: 3rem;
+  width: 30rem;
+  border-radius: 30px;
+  border: 1px solid #3f4143;
+  text-align: center;
+  color: rgb(255, 17, 0);
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  background-position: 95% center;
+}
+
+.headerInput:hover {
+  border: 2px solid rgb(255, 17, 0);
+}
+
+.headerInput:focus {
+  padding: 12px 0;
+  outline: 0;
+  border: 2px solid transparent;
+  border-bottom: 2px solid rgb(255, 17, 0);
+  border-radius: 0;
+  caret-color: rgb(255, 17, 0);
+  letter-spacing: 1px;
+  color: rgb(6, 6, 6);
+  text-align: start;
+}
+
+.headerButton {
+  font-size: large;
+  height: 3rem;
+  width: 7rem;
+  border-color: rgb(255, 17, 0);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 30px;
+  background-color: rgb(255, 17, 0);
+  color: rgb(255, 255, 255);
+}
+
+.headerButton:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 17, 0);
+  cursor: pointer;
+}
+
+.lowerHeader {
+  background-color: rgb(243, 232, 232);
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerTab {
+  font-size: large;
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0 2rem;
+  text-decoration: none;
+}
+
+.headerLink {
+  text-decoration: none;
+  color: black;
+}
+
+.headerLink:hover {
+  color: rgb(255, 17, 0);
+}
+
+.scrollHeader {
+  top: 0;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background-color: rgb(243, 232, 232);
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

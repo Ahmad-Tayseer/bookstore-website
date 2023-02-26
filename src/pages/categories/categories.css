@@ -1,0 +1,197 @@
+.categoriesDiv {
+  background: #ffffff;
+  font-family: Open Sans, sans-serif;
+  line-height: 1.5em;
+}
+
+.categoryPage {
+  position: relative;
+  margin-top: 5rem;
+  width: 80%;
+  left: 10%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 24% 76%;
+}
+
+.categoryFilter {
+  margin-top: 3rem;
+  border: 1px solid lightgrey;
+  height: fit-content;
+}
+
+.categoryList {
+  position: relative;
+  left: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+.filter {
+  margin: 2rem;
+}
+
+.favouriteFilter {
+  display: flex;
+  margin: 2rem 0;
+}
+
+.favouriteFilter input {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.inputFilter {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.inputFilter input {
+  width: 4rem;
+  height: 3rem;
+  font-size: larger;
+  text-align: center;
+}
+
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+
+@media only screen and (max-width: 1505px) {
+  .categoryPage {
+    grid-template-columns: 45% 55%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .categoryPage {
+    grid-template-columns: 40% 60%;
+  }
+}
+
+@media only screen and (max-width: 1275px) {
+  .categoryPage {
+    grid-template-columns: 35% 65%;
+  }
+}
+
+@media only screen and (max-width: 1175px) {
+  .categoryPage {
+    grid-template-columns: 30% 70%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .categoryPage {
+    grid-template-columns: 25% 75%;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .categoryPage {
+    grid-template-columns: 60% 40%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .categoryPage {
+    grid-template-columns: 55% 45%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .categoryPage {
+    grid-template-columns: 50% 50%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .categoryPage {
+    display: flex;
+    flex-direction: column;
+  }
+  .categoryList {
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+  }
+  .numberFilter {
+    display: flex;
+    flex-direction: row;
+  }
+  .numberFilterSub {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+  }
+}
+
+@media only screen and (max-width: 775px) {
+  .categoryPage {
+    width: 85%;
+    left: 7.5%;
+  }
+  .categoryFilter {
+    position: relative;
+    width: 95%;
+    left: 2.5%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .categoryPage {
+    width: 90%;
+    left: 5%;
+  }
+  .categoryFilter {
+    position: relative;
+    width: 90%;
+    left: 5%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .categoryPage {
+    width: 95%;
+    left: 2.5%;
+  }
+  .categoryFilter {
+    position: relative;
+    width: 90%;
+    left: 5%;
+  }
+
+  @media only screen and (max-width: 645px) {
+    .categoryPage {
+      width: 90%;
+      left: 5%;
+    }
+    .categoryList {
+      left: 0;
+      right: 0;
+      justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+    .categoryPage {
+      width: 90%;
+      left: 5%;
+    }
+    .categoryFilter {
+      justify-content: center;
+    }
+    .numberFilter {
+      display: block;
+    }
+    .numberFilterSub {
+      display: block;
+    }
+  }
+}

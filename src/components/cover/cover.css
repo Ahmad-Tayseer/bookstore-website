@@ -1,0 +1,61 @@
+.cover {
+  position: relative;
+  top: 4rem;
+  left: 10%;
+  width: 80%;
+  height: 50vh;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.cover h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 10rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1200px) {
+  .cover h1 {
+    padding-top: 8rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .cover {
+    height: 40vh;
+  }
+  .cover h1 {
+    padding-top: 6rem;
+    font-size: 3.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .cover {
+    height: 30vh;
+    left: 5%;
+    width: 90%;
+  }
+  .cover h1 {
+    padding-top: 4rem;
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .cover {
+    height: 20vh;
+  }
+  .cover h1 {
+    padding-top: 2.5rem;
+    font-size: 1.5rem;
+  }
+}
